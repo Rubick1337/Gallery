@@ -61,12 +61,13 @@ function handleSearch() {
 
   searchInput.addEventListener('input', function() {
     if (searchInput.value !== '') {
-    } 
-      // Если поле ввода содержит текст, скрыть значок поиска и показать значок очистки
       searchButton.style.display = 'none';
       clearButton.style.display = 'inline-block';
+    } else {
+      searchButton.style.display = 'inline-block';
+      clearButton.style.display = 'none';
     }
-  );
+  });
 
 function handleClear() {
   searchInput.value = '';
