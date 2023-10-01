@@ -1,0 +1,145 @@
+body
+{
+    font-family: 'Comfortaa', cursive;
+    margin:0px;
+    background-color: black;
+}
+.header-site
+{
+    background-color: black;
+}
+.container-header
+{
+    display: flex;
+    margin: 0 30px 20px 30px;
+    justify-content: space-between;
+}
+.line-header
+{
+    background-color: orange;
+}
+h2
+{
+    font-size: 20px;
+    color:white;
+}
+.line-header
+{
+    background-color: orange;
+    height: 5px;
+}
+
+
+#search_box {
+    position: relative;
+    width: 350px;
+    margin-top: 17px;
+}
+#search_box input {
+    box-sizing: border-box;
+    width: 100%;
+    font-size: 1rem;
+    padding: 8px 12px;
+    border-radius: 25px;
+    outline: none;
+    transition: all 0.30s ease-in-out;
+    border: 1px solid #DDDDDD;
+}
+#search_box i {
+    color: black;
+    position: absolute;
+    cursor: pointer;
+    top: 25%;
+    right: 4%;
+    transition: 1s;
+}
+.fa-search:before {
+    content: "\f002";
+}
+.container-gallery
+{
+
+    width: 1280px;
+    margin: auto;
+}
+.gallery-image
+{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: flex-start;
+}
+img
+{
+    width: 380px;
+    height: 214px;
+    margin-top: 15px;
+    background-position: center;
+    background-size: cover;
+    border-radius: 2px;
+    cursor: pointer;
+}
+.footer-site {
+    margin-top: 40px;
+    width: 100%;
+    height: 80px;
+    background: #0C0C0E;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+  }
+  
+  .footer-site a {
+    color: #FFF;
+    text-decoration: none;
+  }
+  
+  .footer-site a:hover {
+    color: #BB945F;
+    cursor: pointer;
+  }
+  .footer-rss {
+    display: flex;
+    width: 98.6111111%;
+    height: 80px;
+    align-items: center;
+    margin-right: 20px;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 2px;
+  }
+  
+  .rss-school {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    height: 22px;
+    flex-grow: 1;
+  }
+  
+  .user {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: 113px;
+    height: 22px;
+  }
+  
+  .year {
+    width: 56px;
+    height: 22px;
+    margin-left: 20px;
+  }
+  #clear
+  {
+    display: none;
+  }
